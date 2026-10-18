@@ -3,7 +3,7 @@ wraps each in the shared head, header and footer and writes <page>/index.html.""
 import pathlib, re
 
 ROOT = pathlib.Path(__file__).parent
-SUPPORT_EMAIL = "haystackapp.help@gmail.com"
+SUPPORT_EMAIL = "apps@yushes.com"
 PAGES = {"index": ("Roundup", ""), "privacy": ("Privacy Policy", "privacy"),
          "terms": ("Terms of Use", "terms"), "support": ("Support", "support")}
 
